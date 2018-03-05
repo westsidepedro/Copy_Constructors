@@ -26,7 +26,7 @@ void Animal::speak() const
     }
 
 
-Animal::Animal(const Animal& other) // this is our Copy Constructor
+Animal::Animal(const Animal &other) // this is our Copy Constructor
 				    // "class ref 'other' "
 				    //	the 'other' refers to w/e we are copying FROM.
 				    //  in this case 'animal1' from the cpp file

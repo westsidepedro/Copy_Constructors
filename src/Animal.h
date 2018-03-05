@@ -19,7 +19,7 @@ class Animal
 	Animal();
 	void setName(string enterName);
 	void speak() const;
-	Animal(const Animal& other); // our Copy Constructor
+	Animal(const Animal &other); // our Copy Constructor
 
 
     };
